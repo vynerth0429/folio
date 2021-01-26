@@ -1,4 +1,4 @@
-baseURL = "https://folio.reylab.tech/"
+baseURL = "https://reylab.tech/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
