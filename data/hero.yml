@@ -1,6 +1,6 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Hello, I am Jun Rey
 content: >
   # I am here for your personal business
 
@@ -8,6 +8,6 @@ content: >
   in various fields by
 buttonName: Contact me
 buttonURL: contact
-image: images/hero/2960351.jpg
+image: images/hero/hero-profile.png
 videoThumb: images/hero/popup-thumb.png
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+# videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ

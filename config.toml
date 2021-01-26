@@ -2,7 +2,7 @@ baseURL = "https://folio.reylab.tech/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Portio"
+title = "Portfolio | Jun Rey"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -61,10 +61,10 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
-email = "hello@example.com"
-openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
-phone = "+(448) 833 5272 332"
+address = "3rd Floor, Ramp Building, Circumferential Rd, Poblacion District, Davao City, Davao del Sur"
+email = "junreyellezo.cpe@gmail.com"
+openingHours = "Open from 9:00 to 18:00 GMT+8 (Monday to Friday only)"
+phone = "+(63) 917 568 2268"
 
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"

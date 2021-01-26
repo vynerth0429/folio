@@ -6,12 +6,34 @@ content: >
 
   My goal is to build a strong supportive professional network among all freelancers and startups in order to improve their performance.
 
-image: images/skill/skill_image.jpg
+image: images/skill/skill-profile.png
 
 skill:
   - title: HTML
-    percent: 69
-  - title: CSS
-    percent: 60
-  - title: Javascript
     percent: 85
+  - title: CSS
+    percent: 80
+  - title: Javascript / Typescript
+    percent: 80
+  - title: Angular
+    percent: 80
+  - title: Ionic / Cordova / Capacitor
+    percent: 80
+  - title: React / NextJs
+    percent: 80
+  - title: React / React Native
+    percent: 70
+  - title: Flutter / Dart
+    percent: 60
+  - title: Node / NestJs
+    percent: 60
+  - title: Python / Flask
+    percent: 45
+  - title: .Net Framework
+    percent: 45
+  - title: DevOps / Bitrise
+    percent: 70
+  - title: DevOps / Bitbucket Pipelines
+    percent: 70
+  - title: DevOps / Ansible
+    percent: 60
