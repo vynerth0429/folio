@@ -5,6 +5,11 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
+  path: data/workSection.yml
+  label: Work
+  match: "**/*"
+  read_only: false
+- type: document
   path: data/hero.yml
   label: Hero
 - type: document
