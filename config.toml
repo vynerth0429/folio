@@ -67,7 +67,7 @@ openingHours = "Open from 9:00 to 18:00 GMT+8 (Monday to Friday only)"
 phone = "+(63) 917 568 2268"
 
 [params.map]
-APIkey = "YOUR GOOGLE MAP API"
+APIkey = "AIzaSyBYNFNC09odOnIHAko_1wv0jmshDZ6vn7U"
 latitude = "23.7783741"
 longitude = "90.3746808"
 pinImage = "images/pin.png"
