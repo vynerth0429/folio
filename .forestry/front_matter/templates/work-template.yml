@@ -1,0 +1,16 @@
+---
+label: Work Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: featureImage
+  label: featureImage
+- type: file
+  name: postImage
+  label: postImage

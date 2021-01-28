@@ -12,8 +12,6 @@ sections:
 - type: document
   path: data/workSection.yml
   label: Work Section
-  match: "**/*"
-  read_only: false
 - type: document
   path: data/hero.yml
   label: Hero
