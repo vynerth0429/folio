@@ -22,7 +22,7 @@ This is a WIP proof-of-concept React hook authentication using the OAuth 2.0 aut
 This will redirect the user to the authentication UI provided by the chosen Identity Provider.
 
 The following query parameters are attached to the authorazation link:
-```
+```bash
 response_type
 client_id
 code_challenge
@@ -42,7 +42,7 @@ Identity Provider will then redirect the user to the provided **redirect_uri** w
 This will attempt to connect with the Login API of the Identity Provider which returns authorization data like **authorization token** and **refresh token**.
 
 ###### Payload
-```
+```bash
 const payload = {
   grant_type,
   code: code,
