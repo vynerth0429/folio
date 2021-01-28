@@ -1,5 +1,6 @@
 baseURL = "https://reylab.tech/"
 languageCode = "en-us"
+enableRobotsTXT = true
 paginate = 6
 theme = "portio"
 title = "Personal | Jun Rey"
