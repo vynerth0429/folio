@@ -114,7 +114,6 @@
         </div>
         <div class="contact-form-input">
           <form id="contact-form" action="{{ .Site.Params.formspreeURL }}" method="POST">
-
             <div class="form-row">
 
               <div class="form-group col-md-6 pr-3">
@@ -137,6 +136,9 @@
                   stored.</label>
               </div>
             </div>
+
+            <div class="g-recaptcha" data-sitekey="6LdBMj8aAAAAAAOwAghDCieLq5ztz3E9Xw1aPGw3"></div>
+            <br/>
 
             <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button">Send Message</button>
             <p id="contact-form-status" class="mt-3"></p>
