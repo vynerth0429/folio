@@ -6,39 +6,68 @@ postImage: images/work/feature-work.jpg
 ---
 ## About
 
-Next.js is a minimalistic React framework that runs on the browser and the server. It offers developers an easy way to get started, and as it uses React.js for templating, it's also a straightforward way for developers with React experience to get productive quickly.
+This is a WIP proof-of-concept React hook authentication using the OAuth 2.0 authorization code flow. Allowing developers to use authentication from different major identity providers - **Auth0**, **AWS** and **Azure**.
 
-This boilerplate makes it easier to get up and running with a well-structured Next.js and TypeScript application.
+**Auth-pkce hook** provides the following methods:
 
-<br/>
+1. *signInWithRedirectAsync*
+2. *authenticate*
 
-## Features
-
-**next-i18n-md-mobx** - project provides a lot of features out of the box. Here's an overview of the included components and tools.
-
-* **Next.js** - Minimalistic framework for server-rendered React applications.
-* **Typescript** - Superset of JavaScript which primarily provides optional static typing, classes and interfaces.
-* **Sass/Scss** - CSS preprocessor, which adds special features such as variables, nested rules and mixins (sometimes referred to as syntactic sugar) into regular CSS.
-* **next-i18next** - An internationalization-framework which provides a function that takes a key, some options, and returns the value for the current language. Helps you to add language translation support to your app.
-* **Mobx** - Simple, scalable state management.
-* **Material UI** - React components for faster and easier web development using Material Design.
-<br/>
-
-## Getting Started
-
-First, install dependencies:
-```bash
-npm install
+---
+#### 1. signInWithRedirectAsync
+```
+(ids: IIdentityServer) => void
 ```
 
-Run the development server:
+This will redirect the user to the authentication UI provided by the chosen Identity Provider.
 
-```bash
-npm run dev
-# or
-yarn dev
+The following query parameters are attached to the authorazation link:
+```
+response_type
+client_id
+code_challenge
+code_challenge_method
+redirect_uri
+state
+scope
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Identity Provider will then redirect the user to the provided **redirect_uri** with the **code** and **state** attached as query parameters.
 
-You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
+#### 2. authenticate
+```
+({code, state}) => void
+```
+
+This will attempt to connect with the Login API of the Identity Provider which returns authorization data like **authorization token** and **refresh token**.
+
+###### Payload
+```
+const payload = {
+  grant_type,
+  code: code,
+  client_id,
+  redirect_uri,
+  code_verifier,
+  client_secret,
+};
+```
+***
+
+#### Types
+###### IIdentityServer Interface
+```bash
+export interface IIdentityServer {
+  tag: string,
+  loginUrl: string,
+  authUrl: string,
+  userInfoUrl: string,
+  codeChallengeMethod: string,
+  clientId: string,
+  clientSecret?: string,
+  redirectUri?: string,
+  scope?: string,
+  audience: string,
+  responseType: string,
+}
+```
