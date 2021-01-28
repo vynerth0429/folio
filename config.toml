@@ -56,7 +56,7 @@ blogPageURL = "blog"
 contactLink = "contact"
 copyright = "All right reserved copyright © Portio 2020"
 footerLogo = "images/contact/logo-reverse.png"
-formspreeURL = "YOUR FORMSPREE URL"
+formspreeURL = "https://formspree.io/f/mbjpweeb"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo-main.png"
 
