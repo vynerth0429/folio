@@ -2,7 +2,7 @@ baseURL = "https://reylab.tech/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Portfolio | Jun Rey"
+title = "Personal | Jun Rey"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -17,16 +17,16 @@ name = "Service"
 url = "#service"
 weight = 3
 [[menu.main]]
-name = "Work"
-url = "#portfolio"
-weight = 4
-[[menu.main]]
 name = "Resume"
 url = "#resume"
+weight = 4
+[[menu.main]]
+name = "Skill"
+url = "#skill"
 weight = 5
 [[menu.main]]
-name = "Blog"
-url = "#blog"
+name = "Work"
+url = "#work"
 weight = 6
 [[menu.main]]
 name = "Contact"
@@ -46,15 +46,11 @@ weight = 2
 name = "Privacy & Policy"
 url = "#"
 weight = 3
-[[menu.sitemap]]
-name = "Latest Article"
-url = "#"
-weight = 4
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © Portio 2020"
+copyright = "All right reserved copyright © Reylab 2021"
 footerLogo = "images/contact/logo-reverse.png"
 formspreeURL = "https://formspree.io/f/mbjpweeb"
 googleAnalytics = "G-HL89XD888Y"
@@ -74,18 +70,18 @@ pinImage = "images/pin.png"
 
 # Social icons
 [[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+icon = "fa-github"
+url = "https://github.com/vynerth0429/"
 weight = 1
 [[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+icon = "fa-facebook"
+url = "https://www.facebook.com/mykiddo0214"
 weight = 2
 [[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
+icon = "fa-instagram"
+url = "https://www.instagram.com/kiddobf0214"
 weight = 3
 [[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
+icon = "fa-twitter"
+url = "https://twitter.com/kiddobf/"
 weight = 4

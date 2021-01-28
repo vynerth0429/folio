@@ -2,12 +2,9 @@
 enable: true
 topTitle: My Resume
 title: >
-  ## My Expertises
+  ## Personal Attainment
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-
-
-  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
+  Know me from my educational background to work experience.
 tab1Name: Experiences
 tab2Name: Education
 tab1Target: experience

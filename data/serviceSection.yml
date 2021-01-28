@@ -4,42 +4,20 @@ topTitle: Working Area
 title: >
   ## Creative Services
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  Enjoy team diversity and increase networks among other people in various fields.
 service:
   - content: >
-      #### UI/UX Design 
+      #### Web and Mobile Development
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Angular, React, Hugo, Jekyll, Ionic, Flutter and React Native
     image: images/service/web.svg
   - content: >
-      #### Creative Design 
+      #### Backend Development
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Nestjs, Python Flask and .Net Framework
     image: images/service/creative.svg
   - content: >
-      #### Branding
+      #### DevOps | CI/CD
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Bitbucket Pipelines, Bitrise and Ansible
     image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
